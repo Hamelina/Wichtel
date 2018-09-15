@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+/*	background-color: red;*/
+}
+
+#box_1{
+	height: 200px; /* höhe */
+	width: 200px;  /* breit */
+	background-color: #6B5B95;
+	color : white;
+	padding: 10px;
+	text-align: center;
+	border-width: 50px;
+	border-radius: 10px;
+	margin:200px;
+	margin-left: 50px;
+	margin-top:20px;
+	box-shadow: 4px 4px 15px 1px #000000;
+}
+
+h1{
+	font-size: 70px;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+#box_2{
+	height: 200px; /* höhe */
+	width: 200px;  /* breit */
+	background-color: #6B5B95;
+	color : white;
+	padding: 10px;
+	text-align: center;
+	border-width: 50px;
+	border-radius: 10px;
+margin-left: 50px;
+margin-top:20px;
+box-shadow: 4px 4px 15px 1px #000000;
+}
+
+h2{
+	font-size: 70px;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+#bild_hg{
+background-image: url("Bilder/6445494-christmas-wallpaper-hd.jpg");
+	width: 100%;
+	height: 679px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position:center center;
+	}
+
+
+/*#bild_hg:hover{
+background-image: url(Bilder/IMG_7554_kopie.jpg);
+	width: 100%;
+	height: 1000px;
+background-position:center center;
+background-size: cover;
+background-attachment: fixed;
+}*/
+
+#Bild_vg{
+	width: 200px;
+	height: auto;
+	margin-left:90px;
+	margin-top:50px;
+	border-radius:20px;
+}
+
+
+/*----------box1--------------*/
+
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* CSS which you need for blurred box */
+
+
+.blurred-box{
+  position: relative;
+  width: 250px;
+  height: 350px;
+  top: calc(51% - 175px);
+  left: calc(20% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
+	box-shadow: 4px 4px 15px 1px #000000;
+}
+
+
+.blurred-box:after{
+ content: '';
+ width: 300px;
+ height: 300px;
+ background: inherit;
+ position: absolute;
+ left: -25px;
+ left position
+ right: 0;
+ top: -25px;
+ top position
+ bottom: 0;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+ filter: blur(10px);
+}
+
+
+/* Form which you dont need */
+.user-login-box{
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  z-index: 1;
+}
+.user-login-box > *{
+  display: inline-block;
+  width: 200px;
+}
+
+.user-icon{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  background-size: contain;
+  background-image: url(Bilder/Mitglied-werden_01.jpg);
+}
+
+.user-name{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+input.user-password{
+  width: 120px;
+  height: 18px;
+  opacity: 0.4;
+  border-radius: 2px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+/*------------------------*/
+
+/*----------box2--------------*/
+
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* CSS which you need for blurred box */
+
+
+.blurred-box2{
+  position: relative;
+  width: 250px;
+  height: 350px;
+  top: calc(0% - 175px);
+  left: calc(80% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
+	box-shadow: 4px 4px 15px 1px #000000;
+}
+
+
+.blurred-box2:after{
+ content: '';
+ width: 300px;
+ height: 300px;
+ background: inherit;
+ position: absolute;
+ left: -25px;
+ left position
+ right: 0;
+ top: -25px;
+ top position
+ bottom: 0;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+ filter: blur(10px);
+}
+
+
+/* Form which you dont need */
+.user-login-box2{
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  z-index: 1;
+}
+.user-login-box2 > *{
+  display: inline-block;
+  width: 200px;
+}
+
+.user-icon2{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  background-size: contain;
+  background-image: url(Bilder/oficcial-512.jpg);
+}
+
+.user-name2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+input.user-password2{
+  width: 120px;
+  height: 18px;
+  opacity: 0.4;
+  border-radius: 2px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+/*------------------------*/
